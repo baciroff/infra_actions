@@ -68,4 +68,4 @@ jobs:
         uses: techulus/push-github-action@1.0.0
         env:
           API_KEY: ${{ secrets.API_KEY_PUSH }}
-          message: ${{ github.workflow }} успешно выполнен!
+          MESSAGE: "${{ github.workflow }} успешно выполнен!"
